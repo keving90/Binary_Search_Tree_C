@@ -1,0 +1,108 @@
+55  has been read from the input file and inserted into the tree.
+62  has been read from the input file and inserted into the tree.
+89  has been read from the input file and inserted into the tree.
+85  has been read from the input file and inserted into the tree.
+97  has been read from the input file and inserted into the tree.
+56  has been read from the input file and inserted into the tree.
+71  has been read from the input file and inserted into the tree.
+82  has been read from the input file and inserted into the tree.
+38  has been read from the input file and inserted into the tree.
+49  has been read from the input file and inserted into the tree.
+25  has been read from the input file and inserted into the tree.
+67  has been read from the input file and inserted into the tree.
+58  has been read from the input file and inserted into the tree.
+92  has been read from the input file and inserted into the tree.
+100 has been read from the input file and inserted into the tree.
+44  has been read from the input file and inserted into the tree.
+69  has been read from the input file and inserted into the tree.
+72  has been read from the input file and inserted into the tree.
+65  has been read from the input file and inserted into the tree.
+52  has been read from the input file and inserted into the tree.
+41  has been read from the input file and inserted into the tree.
+84  has been read from the input file and inserted into the tree.
+21  has been read from the input file and inserted into the tree.
+60  has been read from the input file and inserted into the tree.
+95  has been read from the input file and inserted into the tree.
+12  has been read from the input file and inserted into the tree.
+35  has been read from the input file and inserted into the tree.
+42  has been read from the input file and inserted into the tree.
+105 has been read from the input file and inserted into the tree.
+99  has been read from the input file and inserted into the tree.
+34  has been read from the input file and inserted into the tree.
+47  has been read from the input file and inserted into the tree.
+35  cannot be added to the tree because it already exists.
+35  has been read from the input file and inserted into the tree.
+79  has been read from the input file and inserted into the tree.
+95  cannot be added to the tree because it already exists.
+95  has been read from the input file and inserted into the tree.
+50  has been read from the input file and inserted into the tree.
+25  cannot be added to the tree because it already exists.
+25  has been read from the input file and inserted into the tree.
+51  has been read from the input file and inserted into the tree.
+
+Printing the tree using an iterative preorder method:
+
+55 38 25 21 12 35 34 49 44 41 42 47 52 50 51 62 56 58 60 89 85 71 67 65 69 82 72 79 84 97 92 95 100 99 105 
+
+Printing the tree using an iterative postorder method:
+
+12 21 34 35 25 42 41 47 44 51 50 52 49 38 60 58 56 65 69 67 79 72 84 82 71 85 95 92 99 105 100 97 89 62 55 
+
+Printing the tree using an iterative inorder method:
+
+12 21 25 34 35 38 41 42 44 47 49 50 51 52 55 56 58 60 62 65 67 69 71 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user chose to remove 71 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 25 34 35 38 41 42 44 47 49 50 51 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user chose to remove 51 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 25 34 35 38 41 42 44 47 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user chose to remove 38 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 25 34 35 41 42 44 47 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user tried to remove 5 from the tree, but it is not in the tree.
+
+The user tried to remove 0 from the tree, but it is not in the tree.
+
+The user chose to remove 25 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 34 35 41 42 44 47 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user chose to remove 42 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 34 35 41 44 47 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user tried to remove 91 from the tree, but it is not in the tree.
+
+The user chose to remove 35 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 34 41 44 47 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user chose to remove 47 from the tree.
+
+Here is the new tree using inorder traversal:
+
+12 21 34 41 44 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
+The user has finished deleting nodes from the tree.
+
+Here is the final tree using an iterative inorder method:
+
+12 21 34 41 44 49 50 52 55 56 58 60 62 65 67 69 72 79 82 84 85 89 92 95 97 99 100 105 
+
